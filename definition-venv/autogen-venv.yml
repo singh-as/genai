@@ -1,0 +1,10 @@
+name: autogen-venv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip>=19.0
+  - jupyterlab
+  - pip:
+      - autogen-agentchat
+      - autogen-ext[openai]

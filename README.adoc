@@ -1,0 +1,22 @@
+:ollama: https://ollama.com/
+:miniconda: https://www.anaconda.com/download/success#miniconda
+
+:icons: font
+:source-highlighter: prettify
+:master-branch: https://github.com/singh-as/genai
+:project-name: genai
+
+
+== Pre-requisite
+- {ollama}[ollama] to run LLM locally,
+- {miniconda}[Miniconda] 
+
+== Download and run LLM like llama3.2
+ollama run llama3.2
+
+
+== Create virtual environment
+* Clone the repo: git clone {master-branch}[{project-name}]
+* cd {project-name}
+* conda env create -f definition-venv/{filename}.yml
+* conda activate {venv name}
